@@ -1,0 +1,87 @@
+Html, body {
+    width: 100%
+    height: 100%
+    padding: 0;
+    margin: 0;
+    @import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;800&display=swap');
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Vollkorn, Georgia, 'Times New Roman', Times, serif ; 
+}
+
+body {
+    display: grid;
+    grid-template-rows: 1fr 3fr 10fr;
+}
+header {
+    background-color: rgb(29, 56, 75);
+    color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+
+
+}
+
+nav {
+    color: rgb(29, 56, 75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2rem;;
+    padding: 20px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+}
+
+.left-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(29, 56, 75);
+    color: lightgray;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+
+}
+
+.menu-main {
+    font-size: 3rem;
+}
+
+.menu {
+    font-size: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.shop {
+    background-color: white;
+    color: rgb(29, 56, 75);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+    flex-direction: row;
+
+}
+
+hr {
+    text-decoration: darkgreen;
+}
